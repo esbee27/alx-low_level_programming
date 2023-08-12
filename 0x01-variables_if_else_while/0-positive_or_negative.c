@@ -6,7 +6,7 @@
 /**
  * main - main header
  *
- * Return: while o
+ * Return: return o
  */
 
 int main(void)
