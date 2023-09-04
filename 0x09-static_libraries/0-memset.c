@@ -1,3 +1,3 @@
 #include "main.h"
 
-void *_memset(void);
+void *_memset(void){}
