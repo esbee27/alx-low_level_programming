@@ -3,8 +3,8 @@
 
 /**
  * *array_range - main function
- * @min - minimum range
- * @maxmaximum range
+ * @min: minimum range
+ * @max: maximum range
  * Return: returns pointer
  */
 
