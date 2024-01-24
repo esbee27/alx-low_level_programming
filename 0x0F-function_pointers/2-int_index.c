@@ -5,7 +5,7 @@
  * int_index - main function
  * @array: array
  * @size: size of elements of array
- * @cmp: pointer to func of one 
+ * @cmp: pointer to func of one
  * Return: 0
  */
 
