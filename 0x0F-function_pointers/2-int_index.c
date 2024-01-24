@@ -1,9 +1,11 @@
 #include "function_pointers.h"
+#include "stddef.h"
+
 /**
  * int_index - main function
  * @array: array
  * @size: size of elements of array
- * @cmp: pointer to func of one 
+ * @cmp: pointer to func of one
  * Return: 0
  */
 
@@ -19,5 +21,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 		if (cmp(array[i]))
 			return (i);
 	}
-	retrurn (-1);
+	return (-1);
 }
