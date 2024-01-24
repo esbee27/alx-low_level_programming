@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include "stddef.h"
+
 /**
  * int_index - main function
  * @array: array
@@ -19,5 +21,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 		if (cmp(array[i]))
 			return (i);
 	}
-	retrurn (-1);
+	return (-1);
 }
