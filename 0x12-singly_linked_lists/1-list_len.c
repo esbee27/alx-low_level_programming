@@ -5,6 +5,7 @@
 /**
  * list_len - prints number of elements
  * @h: pointer to structure
+ * Return: returns length
  */
 
 size_t list_len(const list_t *h)
