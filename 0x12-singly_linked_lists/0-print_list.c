@@ -3,8 +3,6 @@
 
 /**
  * struct list_s - singly list
- * print_list - prints a singly linked list
- * @h: a pointer to str
  * @str: pointer to singly list
  * @len: length of string
  * @next: points to the next node
