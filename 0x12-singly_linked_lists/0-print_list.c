@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * struct list_s - singly list
- * @str: pointer to singly list
- * @len: length of string
- * @next: points to the next node
+ * print_list - prints a linked list
+ * @h: a pointer to str
+ * Return: returns len
  */
 
 size_t print_list(const list_t *h)
@@ -17,7 +16,7 @@ size_t print_list(const list_t *h)
 		if (h->str == NULL)
 			printf("[%d] %s\n", 0, "(nil)");
 		else
-			printf("[%d] %s/n", h->len, h->str);
+			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
 		len++;
 	}
