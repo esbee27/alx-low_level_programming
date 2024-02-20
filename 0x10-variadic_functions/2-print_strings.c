@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * print_string - prints strings
+ * print_strings - prints strings
  * @separator: a string between numbers
  * @n: the maximum number of args
  * Return: returns 0
@@ -11,7 +11,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *str;
-	int i;
+	unsigned int i;
 	va_list ptr;
 
 	va_start(ptr, n);
@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		str = va_arg(ptr, char *);
 
-		if (str = NULL)
+		if (str == NULL)
 			printf("(nil)");
 		else
 			printf("%s", str);
