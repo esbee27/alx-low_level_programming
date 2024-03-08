@@ -2,14 +2,13 @@
 
 /**
  * print_dog - Prints a dog
- * @d: The string
- * Return: returns 0
+ * @d: the argument
  */
 
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
-		printf("NULL");
+		printf("nil");
 	else
 	{
 		if (d->name == NULL)
