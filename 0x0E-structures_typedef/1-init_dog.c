@@ -1,12 +1,11 @@
 #include "dog.h"
 
 /**
- * void init_dog(struct dog *d, char *name, float age, char *owner)
+ * init_dog - A struct function
  * @d: the string
  * @name: name of the dog
  * @age: argument age
  * @owner: owner
- * @Return: returns 0
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
