@@ -3,8 +3,8 @@
 
 /**
  * _strpbrk - main function
- * @s: accepts a value
- * @accept: a value
+ * @a: accepts a value
+ * accept: a value
  * Return: returns 0
  */
 
